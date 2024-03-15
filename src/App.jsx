@@ -1,11 +1,12 @@
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-3xl bg-red-500'>Vite + React</h1>
-    </>
+    <div className='w-4/5 mx-auto'>
+      <NavBar></NavBar>
+    </div>
   )
 }
 
